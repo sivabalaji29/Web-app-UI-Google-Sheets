@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Spreadsheet Container */
+.spreadsheet {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Controls Section */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.controls button:hover {
+  background: #0056b3;
+}
+
+.controls input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.formula-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead {
+  background: #007bff;
+  color: white;
+}
+
+thead th {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+tbody td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+tbody td input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+tbody td input:focus {
+  background-color: #eef4ff;
+  border: 1px solid #007bff;
+}
+
+/* Result Section */
+.result {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Chart Section */
+.chart {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Data Quality Controls */
+.data-quality-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.data-quality-controls button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.data-quality-controls button:hover {
+  background-color: #218838;
+}
+
+/* Data Controls */
+.data-controls {
+  display: flex;
+  gap: 10px;
+}
+
+.data-controls button {
+  background-color: #ffc107;
+  color: #333;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.data-controls button:hover {
+  background-color: #e0a800;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+  }
+
+  .controls input[type="text"] {
+    width: 100%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  .result {
+    font-size: 14px;
+  }
+}

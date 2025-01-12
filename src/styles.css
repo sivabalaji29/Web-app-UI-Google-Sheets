@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  
+  td {
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  input {
+    border: none;
+    width: 100%;
+  }
+  
