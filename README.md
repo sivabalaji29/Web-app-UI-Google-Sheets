@@ -87,3 +87,47 @@ Save the spreadsheet or generate a chart for visualization.
 **Prerequisites**
 
 Node.js installed on your system.
+
+# Steps
+# Clone the repository:
+
+bash
+git clone https://github.com/your-username/react-spreadsheet-app.git
+
+Navigate into the project directory:
+
+bash
+cd react-spreadsheet-app
+
+Install dependencies:
+
+bash
+npm install
+
+Run the app:
+
+bash
+npm start
+
+Open your browser and navigate to http://localhost:3000.
+
+# Screenshots
+
+![Screenshot 2025-01-12 164508](https://github.com/user-attachments/assets/436b5f4b-8cfa-437b-8dcf-59f5d5775432)
+
+Contributing
+Fork the repository.
+Create a feature branch:
+bash
+
+git checkout -b feature-name
+Commit your changes:
+bash
+
+git commit -m "Add feature description"
+
+Push your branch:
+bash
+
+git push origin feature-name
+Open a pull request.
