@@ -92,7 +92,7 @@ Node.js installed on your system.
 # Clone the repository:
 
 bash
-git clone https://github.com/your-username/react-spreadsheet-app.git
+git clone [https://github.com/your-username/react-spreadsheet-app.git](https://github.com/sivabalaji29/Web-app-UI-Google-Sheets.git)
 
 Navigate into the project directory:
 
@@ -115,7 +115,8 @@ Open your browser and navigate to http://localhost:3000.
 
 ![Screenshot 2025-01-12 164508](https://github.com/user-attachments/assets/436b5f4b-8cfa-437b-8dcf-59f5d5775432)
 
-![Screenshot 2025-01-12 164541](https://github.com/user-attachments/assets/cb60d684-4a99-48bc-aec5-cff309e22f7a)
+![Screenshot 2025-01-12 170314](https://github.com/user-attachments/assets/d577c206-381b-4c1d-8abe-70a1fdcb9883)
+
 
 Contributing
 Fork the repository.
