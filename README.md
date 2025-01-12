@@ -115,6 +115,8 @@ Open your browser and navigate to http://localhost:3000.
 
 ![Screenshot 2025-01-12 164508](https://github.com/user-attachments/assets/436b5f4b-8cfa-437b-8dcf-59f5d5775432)
 
+![Screenshot 2025-01-12 164541](https://github.com/user-attachments/assets/cb60d684-4a99-48bc-aec5-cff309e22f7a)
+
 Contributing
 Fork the repository.
 Create a feature branch:
